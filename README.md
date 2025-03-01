@@ -1,15 +1,22 @@
 # ERPT_Japan_Multiple-prior_BayesianSVAR
 Matlab codes and the dataset for Yushi Yoshida and Weiyang Zhang, 2025(103312), Journal of International Money and Finance
 
-The original code is "MP_Ext_mainfile.m" from "Identification and Inference
+The original main code is "MP_Ext_mainfile.m" from "Identification and Inference
 under Narrative Restrictions" by Raffaella Giacomini, Toru Kitagawa, and
 Matthew Read, 2021, arXiv:2102.06456
  
-The code is modified by Yushi Yoshida for the
+Yushi Yoshida modified the code for the
 research paper, "Can exchange rate pass-throughs be perverse? 
 A robust multiple-prior Bayesian SVAR approach," Yushi Yoshida and
 Weiyang Zhai, available online Feb 2025, Journal of International Money and
 Finance, 103312
+
+The main file is 'YZ_ERPT_mainfile.m'
+After choosing the narrative restriction out of 7 alternatives by nr_yz = '', this code runs for more than a day.
+
+To skip the long-hours estimation process, we provide the estimated results in the resultFiles folder.
+With JPN_ERPT_YZ_MakingGraphOnly.m, you can enjoy the graph of two alternative narrative restrictions with one overlying another. 
+
 
 The modified codes are indicated by the signature, @YZ2025JIMF
 The following 8 codes in auxFunctions are also modified
