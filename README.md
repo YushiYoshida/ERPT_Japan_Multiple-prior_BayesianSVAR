@@ -1,10 +1,10 @@
 # ERPT_Japan_Multiple-prior_BayesianSVAR
 Matlab codes and the dataset for Yushi Yoshida and Weiyang Zhang, 2025(103312), Journal of International Money and Finance
 
-% The original code is "MP_Ext_mainfile.m" from "Identification and Inference
-% under Narrative Restrictions" by Raffaella Giacomini, Toru Kitagawa, and
-% Matthew Read, 2021, arXiv:2102.06456
-% 
+The original code is "MP_Ext_mainfile.m" from "Identification and Inference
+under Narrative Restrictions" by Raffaella Giacomini, Toru Kitagawa, and
+Matthew Read, 2021, arXiv:2102.06456
+ 
 % The code is modified by Yushi Yoshida for the
 % research paper, "Can exchange rate pass-throughs be perverse? 
 % A robust multiple-prior Bayesian SVAR approach," Yushi Yoshida and
