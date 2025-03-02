@@ -9,11 +9,11 @@ function [credlb,credub] = credibleRegionERPT(rmin,rmax,opt)
 aalpha = opt.aalpha; % Credibility level
 gridLength = opt.gridLength; % Number of point on discrete grid
 
-% The codes below in variable placed are changed because ERPT does not have 'ni'
-% dimension. (by Yoshida)
+%@YZ2025JIMF, The codes below in variable placed are changed because ERPT does not have 'ni'
+% dimension.
 [K,H,nj] = size(rmin);
 
-% Storage. below modified by Yoshida
+%@YZ2025JIMF, Storage. below modified by Yoshida
 credlb = zeros(H,nj);
 credub = credlb;
 

@@ -123,13 +123,13 @@ restr.eqRestr = [1 5 0 1; % A0_15 (shock, variable)= 0
                 5 1 0 4;
                 5 4 0 4]; 
 
-%% Input identifying restrictions and narrative restrictions.
+%% Input identifying (traditional sign and narrative sign restrictions)
 
 % Each row of shockSignRestr contains a vector (i,s,t) representing the
 % shock-sign restriction that the ith shock in period t is >= 0 (s = 1) or
 % <= 0 (s = -1). t is equal to the index of the observation.
 % restr.shockSignRestr = []; % No shock-sign restrictions
-%restr.shockSignRestr = [1 1 find(dates == datenum(1979,10,01))]; 
+%restr.shockSignRestr = [1 1 find(dates == datenum(yyyy,mm,dd))]; 
 
 if nr_yz==1 
 %@YZ2025JIMF Introduction of QE in March 2001 is negative.

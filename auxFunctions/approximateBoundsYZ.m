@@ -12,7 +12,7 @@ function [rmin,rmax,rminERPT,rmaxERPT] = approximateBoundsYZ(restr,phi,opt)
 H = opt.H;
 ivar = opt.ivar;
 jshock = opt.jshock;
-KTilde = opt.KTilde;
+KTilde = opt.KTilde;%@YZ2025JIMF
 vma = phi.vma;
 %cumIR = opt.cumIR;
 
@@ -24,7 +24,7 @@ Q0 = drawQ0eq(restr,phi,opt); %@YZ2025JIMF, with zero resrictions
 Q0 = Q0(:,jshock,:); 
 
 % Compute impulse responses for each draw of Q.
-etaDraw = zeros(H+1,length(ivar),length(jshock),KTilde);
+etaDraw = zeros(H+1,length(ivar),length(jshock),KTilde);%@YZ2025JIMF
 
 for hh = 1:H+1 % For each horizon
 

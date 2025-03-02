@@ -49,9 +49,9 @@ rMaxPost = zeros(opt.phiDraws,opt.H+1,ni,nj);
 rSinglePriorPost = zeros(opt.phiDraws,opt.H+1,ni,nj);
 B = zeros(n*m,opt.phiDraws);
 Sigma = zeros(n,n,opt.phiDraws);
-rMinERPT=zeros(opt.phiDraws,opt.H+1,nj);
-rMaxERPT=zeros(opt.phiDraws,opt.H+1,nj);
-Q00=zeros(opt.phiDraws, ni,nj,opt.KTilde);
+rMinERPT=zeros(opt.phiDraws,opt.H+1,nj);%@YZ2025JIMF, initialize matrix
+rMaxERPT=zeros(opt.phiDraws,opt.H+1,nj);%@YZ2025JIMF, initialize matrix
+Q00=zeros(opt.phiDraws, ni,nj,opt.KTilde);%@YZ2025JIMF, initialize matrix
 
 phiDraw = 0; % Counter for no. of draws from posterior of phi
 nonStableCount = 0; % Counter for no. of draws with nonstable VAR
